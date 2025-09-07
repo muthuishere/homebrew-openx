@@ -3,7 +3,7 @@ cask "openx" do
   name "openx"
   desc "A cross-platform utility that makes command-line tools accessible from anywhere by creating symbolic links or wrapper scripts in your system's PATH"
   homepage "https://github.com/muthuishere/openx"
-  version "0.2.4"
+  version "0.2.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "openx" do
   on_macos do
     on_intel do
       url "https://github.com/muthuishere/openx/releases/download/v#{version}/openx_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "68cc466eefbabeb3dd254ec9fdf492232881a1baa8b7c056a8aefad71e5c9de7"
+      sha256 "b497d781fa421b2fdbf4af55280128ab3f2376ca1ad111dbf357449d78a9c127"
     end
     on_arm do
       url "https://github.com/muthuishere/openx/releases/download/v#{version}/openx_#{version}_Darwin_arm64.tar.gz"
-      sha256 "1f28660918dfd51497159cfbe687233da8a899aa7b26f431f46ab54fa657236f"
+      sha256 "59cfbdc673d0fd74ab6c34e76bdcf7515b9bbf4c165fbc822c365bb35698a3c5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/muthuishere/openx/releases/download/v#{version}/openx_#{version}_Linux_x86_64.tar.gz"
-      sha256 "55efb0d96c807737f84699bd27746cf26ad74fd41fcefe9a301e40019818f400"
+      sha256 "69e0446dbb28e83db9a9a995150a8385e6a844415be49c3095def0372ac85274"
     end
     on_arm do
       url "https://github.com/muthuishere/openx/releases/download/v#{version}/openx_#{version}_Linux_arm64.tar.gz"
-      sha256 "ccbcb4d80ff5bd06998a4fe8f69e51b135ce47006fdad01d37b6eb46ba6bdd35"
+      sha256 "46c31869f990c14f3fb64cd2d72642f8ab6b6c8d138619b5b38985bb6d27d32e"
     end
   end
 
